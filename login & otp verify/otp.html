@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login & OTP Verification</title>
+  <link rel="stylesheet" href="otp.css">
+</head>
+<body>
+
+<div class="card" id="loginCard">
+  <h2>Login</h2>
+  <input type="text" id="name" placeholder="Full Name"><br>
+  <input type="number" id="mobile" placeholder="Mobile Number"><br>
+  <input type="email" id="email" placeholder="Email"><br>
+  <button onclick="goToOTP()"><b>LOGIN</b></button>
+</div>
+
+<div class="card" id="otpCard" style="display:none;">
+  <h2>Verify OTP</h2>
+  <div class="otp-box">
+    <input type="number" maxlength="1" class="otp-input">
+    <input type="number" maxlength="1" class="otp-input">
+    <input type="number" maxlength="1" class="otp-input">
+    <input type="number" maxlength="1" class="otp-input">
+  </div>
+  <br>
+  <button onclick="verifyOTP()"><b>Verify</b></button>
+</div>
+
+<script src="otp.js"></script>
+</body>
+</html>

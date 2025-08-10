@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ff1e00; /* light grey background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: black; /* dark grey card */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(54, 50, 50, 0.5);
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  color: #ff1e00; /* green text */
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ff3300;
+  background: black;
+  color:  #ff1e00;
+}
+
+button {
+  padding: 10px 20px;
+  background:#ff1e00 ;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.otp-box {
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  justify-content: space-between;
+  
+}
+
+.otp-input {
+  width: 40px;
+  padding: 8px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #333;
+  background: black;
+  color: #ff1e00; 
+}
